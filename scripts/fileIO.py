@@ -57,5 +57,11 @@ def writeSingleToFile(fileName,value):
 if __name__=="__main__":
     #print(readAsList("_bcb5c6658381416d19b01bfc1d3993b5_IntegerArray.txt",int))
     #print([str for x in range(5)])
-    print(readAsListOfDict('_642c2ce8f3abe387bdff636d708cdb26_jobs.txt','\s+',2,['weight','length'],[int,int],1,0))
+    #print(readAsListOfDict('_642c2ce8f3abe387bdff636d708cdb26_jobs.txt','\s+',2,['weight','length'],[int,int],1,0))
+    #print(readAsListOfDict('_d4f3531eac1d289525141e95a2fea52f_edges.txt','\s+',3,['node1','node2','cost'],[int,int,
+    # int],0,1))
+    print(readAsListOfDict("_fe8d0202cd20a808db6a4d5d06be62f4_clustering1.txt",'\s+',3,['node1','node2','cost'],
+                           [int,int,int],0,1))
+    #print(readAsListOfDict("_fe8d0202cd20a808db6a4d5d06be62f4_clustering1.txt",'\s+'
+    #                                        ,3,['node1','node2','cost'],[int,int,int],0,0))
     pass
