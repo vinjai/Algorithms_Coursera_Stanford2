@@ -36,7 +36,7 @@ __author__ = 'Vinayak'
 from fileIO import readAsList,writeSingleToFile
 
 def getStronglyConnectedComponents(edgesList):
-    """Calculate Strongly connected components and return length of them in list"""
+    """Calculate Strongly connected components and return if two complements not found in same SCC"""
 
     graph=dict()
     graphRev=dict()
